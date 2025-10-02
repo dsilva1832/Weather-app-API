@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+}
+#body{
+    background-image: url("./images/download.jpeg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.btn{
+    width: 10%;
+    margin-bottom: 5%;
+}
+
+.input{
+    width: 50%;
+}
+
+/* .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+
+.cards{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    /* right: 50%; */
+}
+
+#notFound{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+@media (max-width: 770px) {
+    .btn{
+        width: 20%;
+        margin-bottom: 5%;
+
+    }
+    .input{
+        width: 70%;
+    }
+}
+
+@media (max-width: 370px) {
+    .btn{
+        width: 25%;
+        margin-bottom: 5%;
+
+    }
+    .input{
+        width: 70%;
+    }
+}
