@@ -26,12 +26,14 @@
     width: 50%;
 }
 
-/* .row{
-    display: flex;
+
+/* .row{ */
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-} */
+    justify-content: center; */
+    /* gap: 2px; */
+/* } */
 
 .cards{
     width: 150px;
